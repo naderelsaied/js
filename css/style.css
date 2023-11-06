@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    margin: auto;
+    background-image: url(../images/contaner1.jpg);
+    background-size: cover;
+    text-align: center;
+}
+.container h1{
+    font-size: 40px;
+    color: rgb(144, 255, 88);
+    font-weight: 700;
+    /* padding-top: 20px; */
+}
+.parent{
+    text-align: center;
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+}
+.product{
+    background-color: rgba(34, 59, 183, 0.909);
+    border-radius: 15px;
+}
+.parent h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.938);
+    padding-top: 5px;
+}
+.parent p{
+    font-size: 23px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+}
+#mycontact{
+    background-color: rgba(5, 11, 41, 0.644);
+    border-radius: 15px;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+#mycontact h1{
+    color: rgb(55, 255, 0);
+    font-weight: 700;
+    font-size: 25px;
+}
+#mysalary{
+    background-color: rgba(45, 10, 10, 0.578);
+    border-radius: 15px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+h3{
+    margin-top: 15px;
+}
+.parent2{
+    width: 50%;
+    height: 15%;
+    margin: auto;
+    /* border: 5px blue solid; */
+    display: grid;
+    grid-template-columns: 1fr .7fr .5fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+#btn1{
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: rgba(10, 10, 151, 0.874);
+    
+}
